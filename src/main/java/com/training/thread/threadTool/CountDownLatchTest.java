@@ -1,4 +1,4 @@
-package com.training.thread.pressureTest;
+package com.training.thread.threadTool;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;

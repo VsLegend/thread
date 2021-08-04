@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
  * Executors.newCachedThreadPool()
  * Executors.newScheduledThreadPool(1)
  * Executors.newSingleThreadScheduledExecutor()
- * @see com.training.thread.forkJoin.ForkJoinThreadPool
+ * @see ForkJoinThreadPool
  */
 public class CreateExecutorThreadPool {
 

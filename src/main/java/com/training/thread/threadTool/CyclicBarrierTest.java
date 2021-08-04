@@ -1,4 +1,4 @@
-package com.training.thread.pressureTest;
+package com.training.thread.threadTool;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
