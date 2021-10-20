@@ -1,4 +1,4 @@
-package com.training.thread.lock;
+package com.training.thread.util.lock;
 
 import java.util.Arrays;
 import java.util.concurrent.locks.StampedLock;

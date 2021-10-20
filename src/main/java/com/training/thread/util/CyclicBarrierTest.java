@@ -1,4 +1,4 @@
-package com.training.thread.threadTools;
+package com.training.thread.util;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

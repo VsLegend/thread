@@ -1,4 +1,4 @@
-package com.training.thread.threadTools;
+package com.training.thread.util;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;

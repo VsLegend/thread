@@ -1,4 +1,4 @@
-package com.training.thread.lock;
+package com.training.thread.util.lock;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;

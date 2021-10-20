@@ -1,4 +1,4 @@
-package com.training.thread.lock;
+package com.training.thread.util.lock;
 
 import com.google.common.util.concurrent.RateLimiter;
 
