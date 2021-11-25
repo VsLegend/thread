@@ -3,7 +3,7 @@ package com.training.thread.singleThread.exceptionHandler;
 import java.util.concurrent.*;
 
 /**
- * @Author Wong Jwei
+ * @Author Wang Junwei
  * @Date 2021/7/1
  * @Description
  */

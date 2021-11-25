@@ -1,7 +1,7 @@
 package com.training.thread.singleThread;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2021/1/28
  * @Description: 访问类锁的非同步方法 | 访问对象锁的非同步方法
  */

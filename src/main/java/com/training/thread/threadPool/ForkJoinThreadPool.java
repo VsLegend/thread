@@ -6,7 +6,7 @@ import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveTask;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2020/8/4
  * @Description: 并发框架fork-join求和
  * 分治编程模式，适用于计算任务的计算量无法评估，但可以进行层次分解

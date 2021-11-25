@@ -3,7 +3,7 @@ package com.training.thread.concurrentCollection;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2021/3/16
  * @Description:
  */

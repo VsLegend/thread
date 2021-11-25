@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2021/4/22
  * @Description: RateLimiter
  */

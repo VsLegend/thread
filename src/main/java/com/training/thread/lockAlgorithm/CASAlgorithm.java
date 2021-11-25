@@ -3,7 +3,7 @@ package com.training.thread.lockAlgorithm;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2020/9/14
  * @Description: CAS算法 即比较和交换
  */

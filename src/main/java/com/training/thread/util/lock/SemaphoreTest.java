@@ -3,7 +3,7 @@ package com.training.thread.util.lock;
 import java.util.concurrent.Semaphore;
 
 /**
- * @Author Wong Jwei
+ * @Author Wang Junwei
  * @Date 2021/8/23
  * @Description
  */

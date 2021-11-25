@@ -1,7 +1,7 @@
 package com.training.thread.singleThread;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2020/10/12
  * @Description: 线程优先级
  */

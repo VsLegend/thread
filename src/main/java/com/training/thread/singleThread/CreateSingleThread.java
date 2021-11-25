@@ -1,7 +1,7 @@
 package com.training.thread.singleThread;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2020/7/30
  * @Description: 单线程的创建方式
  */

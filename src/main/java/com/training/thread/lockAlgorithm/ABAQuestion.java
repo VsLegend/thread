@@ -3,7 +3,7 @@ package com.training.thread.lockAlgorithm;
 import java.util.Stack;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2020/9/14
  * @Description: CAS的ABA问题
  */

@@ -4,7 +4,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2021/3/15
  * @Description: 这个类能使一个线程等待其他线程各自执行完毕后再执行，
  *    它是通过一个计数器来实现的，计数器的初始值是线程的数量。每当一个线程执行完毕后，计数器的值就-1，

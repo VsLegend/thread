@@ -6,12 +6,12 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @Author Wong Jwei
+ * @Author Wang Junwei
  * @Date 2021/10/20
  * @Description 取消或中断线程任务
  */
 
-public class CancelThreadTest {
+public class CancelTaskThreadTest {
 
 
     public static void main(String[] args) throws InterruptedException {

@@ -4,7 +4,7 @@ import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2021/3/15
  * @Description: 同步屏障 使用线程屏障可以达到模拟线程同步执行的效果
  *  让一组线程到达一个屏障（也可以叫同步点）时被阻塞，直到最后一个线程到达屏障时，屏障才会开门，所有被屏障拦截的线程才会继续干活。

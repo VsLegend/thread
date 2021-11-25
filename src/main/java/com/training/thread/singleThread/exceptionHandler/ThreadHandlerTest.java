@@ -1,7 +1,7 @@
 package com.training.thread.singleThread.exceptionHandler;
 
 /**
- * @Author Wong Jwei
+ * @Author Wang Junwei
  * @Date 2021/7/1
  * @Description
  */

@@ -6,7 +6,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2020/8/4
  * @Description: 创建线程池的6种方式
  * Executors.newSingleThreadExecutor()

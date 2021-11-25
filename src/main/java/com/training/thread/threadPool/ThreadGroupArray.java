@@ -3,7 +3,7 @@ package com.training.thread.threadPool;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2020/8/4
  * @Description: 线程数组管理线程
  */

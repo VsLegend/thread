@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.concurrent.*;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2020/8/5
  * @Description: 多线程返回结果
  */

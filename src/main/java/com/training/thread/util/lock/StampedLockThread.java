@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.concurrent.locks.StampedLock;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2020/8/3
  * @Description: 乐观锁
  */

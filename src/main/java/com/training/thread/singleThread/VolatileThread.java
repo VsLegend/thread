@@ -1,7 +1,7 @@
 package com.training.thread.singleThread;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2020/8/3
  * @Description: volatile 保证线程间的可见性
  */

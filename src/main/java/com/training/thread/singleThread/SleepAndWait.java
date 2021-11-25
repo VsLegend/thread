@@ -1,7 +1,7 @@
 package com.training.thread.singleThread;
 
 /**
- * @User: wong
+ * @User: Wang Junwei
  * @Date: 2020/8/10
  * @Description: sleep 和 wait 区别
  * <p>
