@@ -4,6 +4,7 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @Author Wang Junwei
@@ -15,7 +16,7 @@ public class CancelTaskThreadTest {
 
 
     public static void main(String[] args) throws InterruptedException {
-        PrimeThread1 primeThread = new PrimeThread1();
+        PrimeThread2 primeThread = new PrimeThread2();
         Thread thread = new Thread(primeThread);
         thread.start();
         Thread.sleep(100);
@@ -38,6 +39,9 @@ public class CancelTaskThreadTest {
 
         @Override
         public void run() {
+            AtomicInteger num = new AtomicInteger(0);
+            num.incrementAndGet();
+            boolean a = num.get() == 0;
             System.out.println("Thread starting...");
             BigInteger p = BigInteger.ONE;
             while (!cancelled) { // 用于被外部中断时的判断操作

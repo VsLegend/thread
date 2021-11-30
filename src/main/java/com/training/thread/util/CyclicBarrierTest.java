@@ -13,9 +13,9 @@ import java.util.concurrent.CyclicBarrier;
 public class CyclicBarrierTest {
 
   // 构造器设置 屏障线程数
-  static CyclicBarrier cyclicBarrier = new CyclicBarrier(10);
+  static final CyclicBarrier cyclicBarrier = new CyclicBarrier(10);
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws BrokenBarrierException, InterruptedException {
     for (int i = 0; i < 20; i++) {
       Thread thread = new Thread(() -> {
         String name = Thread.currentThread().getName();
@@ -23,7 +23,8 @@ public class CyclicBarrierTest {
           System.out.println("线程" + name + "：进入屏障等待其他线程进入...");
           // 表示线程已到达屏障，等待指定数量的线程到达屏障后，才会继续执行
           // 需要注意的是，到达屏障指定的数量后，屏障计数器会清零，继续拦截下一波线程
-          cyclicBarrier.await();
+          int await = cyclicBarrier.await();
+          System.out.println(await);
         } catch (InterruptedException | BrokenBarrierException e) {
           e.printStackTrace();
         }
