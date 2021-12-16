@@ -1,4 +1,4 @@
-package com.training.thread.util.lock;
+package com.training.thread.lock;
 
 import java.util.HashSet;
 import java.util.Set;

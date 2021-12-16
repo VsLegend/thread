@@ -1,6 +1,5 @@
 package com.training.thread.atomic;
 
-import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**

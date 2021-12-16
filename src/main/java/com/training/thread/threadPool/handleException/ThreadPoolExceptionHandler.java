@@ -9,23 +9,38 @@ import java.util.concurrent.*;
  */
 public class ThreadPoolExceptionHandler extends ThreadPoolExecutor {
 
-    public ThreadPoolExceptionHandler(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue<Runnable> workQueue) {
-        super(corePoolSize, maximumPoolSize, keepAliveTime, unit, workQueue);
+    public ThreadPoolExceptionHandler(int size) {
+        super(size, size, 0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>());
     }
 
 
+    /**
+     * if (t == null && r instanceof Future<?>) {
+     *   try {
+     *     Object result = ((Future<?>) r).get();
+     *   } catch (CancellationException ce) {
+     *       t = ce;
+     *   } catch (ExecutionException ee) {
+     *       t = ee.getCause();
+     *   } catch (InterruptedException ie) {
+     *       Thread.currentThread().interrupt(); // ignore/reset
+     *   }
+     * }
+     * if (t != null)
+     *   System.out.println(t);
+     */
     @Override
     protected void afterExecute(Runnable r, Throwable t) {
         // catch the exception
+        // 如果任务是Callable类型，那么异常将会直接通过Future返回
         System.out.println("Thread:" + r.toString());
         System.out.println("Throwing exception:" + t);
     }
 
+
     public static void main(String[] args) {
         int processors = Runtime.getRuntime().availableProcessors();
-        ThreadPoolExceptionHandler threadPoolExecutor = new ThreadPoolExceptionHandler(processors, processors,
-                0L, TimeUnit.MILLISECONDS,
-                new LinkedBlockingQueue<Runnable>());
+        ThreadPoolExceptionHandler threadPoolExecutor = new ThreadPoolExceptionHandler(processors);
         threadPoolExecutor.execute(() -> {
             try {
                 Thread.sleep(1000);
